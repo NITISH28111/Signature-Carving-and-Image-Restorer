@@ -1,7 +1,6 @@
-# Advanced Image Recovery & AI Enhancement Tool
+# Signature-Carving-and-Image-Restorer
 
-A desktop forensic utility that recovers deleted JPEG/PNG images from storage media using low-level signature-based carving, and repairs degraded images (noisy/blurry) using deep learning — all wrapped in a single unified PyQt5 GUI.
-
+Recovers deleted JPEG/PNG images from raw disk sectors via signature-based carving, then classifies and restores degraded (blurry/noisy) images using a fine-tuned ResNet-50 + MPRNet — all through a unified PyQt5 GUI for digital forensics and personal data recovery.
 ---
 
 ## Overview
