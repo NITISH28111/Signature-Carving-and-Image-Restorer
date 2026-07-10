@@ -76,7 +76,11 @@ python train.py
 Expects a dataset directory structured as `./dataset/{blurry,noisy,none}/*.jpg`.
 
 ---
+## Extensibility
 
+The current system focuses on JPEG and PNG formats as a targeted approach toward the most common image types. Support for additional formats (e.g., BMP, TIFF, WEBP) — or even non-image file types — can be added without any major structural changes to the system. This only requires identifying the target format's header/footer byte signatures and adding them to the signature list in "recovery>>main.py" (see jpg_signatures / png_signature in raw_recovery()), along with a matching end-marker check for where the recovery should stop writing.
+
+---
 ## Reference
 
 - MPRNet — Multi-Stage Progressive Image Restoration: [https://github.com/swz30/MPRNet](https://github.com/swz30/MPRNet)
