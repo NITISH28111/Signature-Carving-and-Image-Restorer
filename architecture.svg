@@ -1,0 +1,74 @@
+<svg viewBox="0 0 820 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="720" fill="#faf6ee"/>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="780" height="55" rx="10" fill="#fdeccb" stroke="#e8a33d" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">AI-Assisted Tool for Recovering Deleted Files</text>
+  <text x="410" y="62" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">in Forensic Investigations</text>
+
+  <!-- Left column: File Recovery Module -->
+  <rect x="30" y="95" width="360" height="480" rx="24" fill="#bcd8f5"/>
+  <text x="210" y="130" text-anchor="middle" font-size="18" font-weight="700" fill="#12203c">File Recovery Module</text>
+
+  <circle cx="110" cy="185" r="42" fill="#5fd0ee" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="110" y="180" text-anchor="middle" font-size="14" font-weight="700" fill="#12203c">Raw</text>
+  <text x="110" y="197" text-anchor="middle" font-size="14" font-weight="700" fill="#12203c">Disk</text>
+
+  <rect x="80" y="255" width="260" height="55" rx="8" fill="#4d5fd1" stroke="#1a1a2e"/>
+  <text x="210" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="white">Signature Matching Scanner</text>
+
+  <rect x="80" y="335" width="260" height="55" rx="8" fill="#3a4cc8" stroke="#1a1a2e"/>
+  <text x="210" y="368" text-anchor="middle" font-size="14" font-weight="700" fill="white">Validation (SHA-256 + Integrity Check)</text>
+
+  <rect x="60" y="420" width="140" height="55" rx="8" fill="#c6e86b" stroke="#1a1a2e"/>
+  <text x="130" y="443" text-anchor="middle" font-size="13" font-weight="700" fill="#12203c">Recovered</text>
+  <text x="130" y="460" text-anchor="middle" font-size="13" font-weight="700" fill="#12203c">Files</text>
+
+  <rect x="220" y="420" width="140" height="55" rx="8" fill="#f5f27a" stroke="#1a1a2e"/>
+  <text x="290" y="443" text-anchor="middle" font-size="13" font-weight="700" fill="#12203c">Recovery</text>
+  <text x="290" y="460" text-anchor="middle" font-size="13" font-weight="700" fill="#12203c">Report (HTML)</text>
+
+  <!-- arrows left column -->
+  <path d="M110 227 L110 245 L210 245 L210 255" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M210 310 L210 335" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M210 390 L130 420" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M210 390 L290 420" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Right column: AI Image Enhancement -->
+  <rect x="430" y="95" width="360" height="480" rx="24" fill="#b9f5db"/>
+  <text x="610" y="130" text-anchor="middle" font-size="18" font-weight="700" fill="#12203c">AI Image Enhancement</text>
+
+  <rect x="470" y="165" width="280" height="55" rx="8" fill="#f08a24" stroke="#1a1a2e"/>
+  <text x="610" y="188" text-anchor="middle" font-size="13" font-weight="700" fill="white">Degraded Image</text>
+  <text x="610" y="205" text-anchor="middle" font-size="13" font-weight="700" fill="white">(Blurry / Noisy)</text>
+
+  <rect x="470" y="245" width="280" height="55" rx="8" fill="#c9a3f2" stroke="#1a1a2e"/>
+  <text x="610" y="278" text-anchor="middle" font-size="14" font-weight="700" fill="#12203c">ResNet-50 Classification</text>
+
+  <rect x="470" y="325" width="280" height="55" rx="8" fill="#dcf7e3" stroke="#1a1a2e"/>
+  <text x="610" y="358" text-anchor="middle" font-size="14" font-weight="700" fill="#12203c">MPRNet Denoising / Deblurring</text>
+
+  <rect x="470" y="420" width="280" height="55" rx="8" fill="#f5a8cf" stroke="#1a1a2e"/>
+  <text x="610" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#12203c">Enhanced Image</text>
+
+  <!-- arrows right column -->
+  <path d="M610 220 L610 245" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M610 300 L610 325" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M610 380 L610 420" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- middle connector -->
+  <path d="M390 335 L430 335" stroke="#12203c" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- bottom: unified GUI -->
+  <rect x="60" y="615" width="700" height="60" rx="10" fill="#e5dcf0" stroke="#12203c" stroke-width="1.5"/>
+  <text x="410" y="652" text-anchor="middle" font-size="17" font-weight="700" fill="#12203c">Unified Graphical User Interface (Launcher.py)</text>
+
+  <path d="M210 575 L210 597 L410 597 L410 615" stroke="#12203c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M610 575 L610 597 L410 597" stroke="#12203c" stroke-width="2" fill="none"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#12203c"/>
+    </marker>
+  </defs>
+</svg>
