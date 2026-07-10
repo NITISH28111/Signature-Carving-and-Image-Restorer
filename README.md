@@ -29,7 +29,7 @@ Deleted images are often unrecoverable through conventional tools once file syst
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.svg" width="720" alt="Architecture / graphical abstract of the recovery and enhancement pipeline">
+  <img src="architecture.svg" width="720" alt="Architecture / graphical abstract of the recovery and enhancement pipeline">
 </p>
 
 ---
